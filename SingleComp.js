@@ -1,18 +1,20 @@
 import styled from 'styled-components';
+import StarIcon from '@mui/icons-material/Star';
 
-
-function ButtonComponent({text,className}) {
+function SingleComp({text,className}) {
 
     return (   
-        <Button className={`${className} sign-up-btn button`}>{text}</Button>
+        <DIV className={`${className} `}>
+
+        </DIV>
         )
 }
 
 
-const Button=styled.button`     
+const DIV=styled.button`     
       
       
 `;      
 
 
-export default ButtonComponent;
+export default SingleComp;
