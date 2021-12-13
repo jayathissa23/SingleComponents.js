@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import StarIcon from '@mui/icons-material/Star';
+
 
 function SingleComp({text,className}) {
 
@@ -11,7 +11,7 @@ function SingleComp({text,className}) {
 }
 
 
-const DIV=styled.button`     
+const DIV=styled.div`     
       
       
 `;      
