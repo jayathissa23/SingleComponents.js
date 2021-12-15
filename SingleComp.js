@@ -1,20 +1,23 @@
+import React from 'react'
 import styled from 'styled-components';
 
-
-function SingleComp({text,className}) {
-
-    return (   
+function Comp() {
+    return (
         <DIV className={`${className} `}>
 
         </DIV>
-        )
+    )
 }
 
+const DIV=styled.div`
+      .icon{ 
+         width: 25px;
+         height: 25px;
+         //margin-right: 10px;  
+         cursor: pointer;
+	   }
+`;
 
-const DIV=styled.div`     
-      
-      
-`;      
 
 
-export default SingleComp;
+export default Comp;
